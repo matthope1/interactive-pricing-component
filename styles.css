@@ -35,7 +35,7 @@ body {
 }
 
 .wrapper {
-    width: 85%;
+    width: 81%;
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -50,19 +50,55 @@ body {
     background-color: var(--light-grayish-blue);
     border-radius: 0px 0px 0px 200px;
     border: none;
+    position: relative;
+}
+
+.header > div.wrapper {
+    position: relative;
 }
 
 .header h1 {
     color: var(--dark-des-blue);
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 800;
+    position: relative;
+    z-index: 4;
+    margin-bottom: 20px;
 }
 
 .header p {
     color: var(--grayish-blue);
     line-height: 11px;
     font-size: 15px;
+    position: relative;
+    z-index: 4;
 }
+
+.small-circle,
+.big-circle {
+    position: relative;
+    background-color: transparent;
+    border: 1px solid var(--grayish-blue);
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.small-circle {
+    height: 83px;
+    width: 83px;
+    z-index: 3;
+    top: -178px;
+    right: -102px;
+}
+
+.big-circle {
+    height: 135px;
+    width: 135px;
+    z-index: 2;
+    top: -105px;
+    right: 56px;
+}
+
 
 
 
