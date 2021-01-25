@@ -19,7 +19,7 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
     --pale-blue: hsl(226, 100%, 87%);
 
     /* Neutral */
-    --white: hsl (0, 0%, 100%);
+    --white: hsl(0, 0%, 100%);
     --very-pale-blue: hsl(230, 100%, 99%);
     --light-grayish-blue: hsl(223, 50%, 87%);
     --lighter-grayish-blue: hsl(224, 65%, 95%);
@@ -99,6 +99,17 @@ body {
     z-index: 2;
     top: -105px;
     right: 51px;
+}
+
+.pricing-component > .card {
+    position: relative;
+    top: -159px;
+    border: solid;
+    width: 84%;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 5%;
+    background-color: var(--white);
 }
 
 
