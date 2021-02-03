@@ -126,6 +126,10 @@ body {
     border-radius: 10px;
 }
 
+body {
+    visibility: hidden;
+}
+
 
 
 
