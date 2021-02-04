@@ -33,6 +33,7 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 body {
     font-family: var(--primary);
     background-color: var(--very-pale-blue);
+    visibility: hidden;
 }
 
 .wrapper {
@@ -126,9 +127,12 @@ body {
     border-radius: 10px;
 }
 
-body {
-    visibility: hidden;
+.card__header {
+    margin: 15px 0 32px 0;
+    font-size: 14px;
 }
+
+
 
 
 
