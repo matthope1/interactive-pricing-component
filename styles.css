@@ -144,7 +144,7 @@ body {
     letter-spacing: 1px;
 }
 
-.card > p {
+.card > h3 {
     margin-top: 31px;
     color: var(--dark-des-blue);
     font-size: 35px;
@@ -152,13 +152,18 @@ body {
     letter-spacing: 0px;
 }
 
-.card > p > span {
+.card > h3 > span {
     color: var(--grayish-blue);
     font-size: 16px;
     position: relative;
     top: -5px;
     left: 8px;
     letter-spacing: 0px;
+}
+
+
+hr {
+    width: 110%;
 }
 
 
