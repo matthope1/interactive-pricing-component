@@ -106,7 +106,7 @@ body {
 .pricing-component > .card {
     position: relative;
     top: -159px;
-    width: 84%;
+    width: 87%;
     height: 500px;
     margin: 0 auto;
     border-radius: 2%;
@@ -145,7 +145,7 @@ body {
 }
 
 .card > h3 {
-    margin-top: 31px;
+    margin-top: 21px;
     color: var(--dark-des-blue);
     font-size: 35px;
     font-weight: 800;
@@ -226,19 +226,21 @@ input:checked + .toggle:before {
 
 .billing > p {
     font-size: 12px;
-    letter-spacing: 0;
     font-weight: 800;
 }
 
-.billing.discount {
-    background-color: var(--light-red);
+.discount {
+    background-color: var(--light-grayish-red);
+    color: var(--light-red);
+    padding: 6px;
+    border-radius: 10px;
 }
-
 
 .billing {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    letter-spacing: 0;
 }
 
 
