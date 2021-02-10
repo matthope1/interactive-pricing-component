@@ -197,9 +197,9 @@ hr {
 .toggle:before {
     position: absolute;
     content: "";
-    height: 17px;
-    width: 17px;
-    left: 2px;
+    height: 16px;
+    width: 16px;
+    left: 4px;
     bottom: 4px;
     background-color: white;
     transition: .4s;
@@ -232,8 +232,10 @@ input:checked + .toggle:before {
 .discount {
     background-color: var(--light-grayish-red);
     color: var(--light-red);
-    padding: 6px;
+    padding: 5px;
     border-radius: 10px;
+    width: 40px;
+    font-weight: 800;
 }
 
 .billing {
