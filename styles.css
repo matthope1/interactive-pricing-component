@@ -189,7 +189,7 @@ hr {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color:  #ccc;
+    background-color:  var(--light-grayish-blue);
     transition: .4s;
     border-radius: 34px;
 }
