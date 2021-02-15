@@ -144,6 +144,10 @@ body {
     letter-spacing: 1px;
 }
 
+.card {
+    max-width: 500px;
+}
+
 .card > p {
     letter-spacing: 0;
 }
