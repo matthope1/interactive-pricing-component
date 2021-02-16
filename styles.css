@@ -103,10 +103,11 @@ body {
     right: 56px;
 }
 
-.pricing-component > .card {
+.card {
     position: relative;
     top: -159px;
     width: 87%;
+    max-width: 500px;
     height: 500px;
     margin: 0 auto;
     border-radius: 2%;
@@ -144,9 +145,6 @@ body {
     letter-spacing: 1px;
 }
 
-.card {
-    max-width: 500px;
-}
 
 .card > p {
     letter-spacing: 0;
@@ -250,16 +248,21 @@ input:checked + .toggle:before {
     align-items: center;
     justify-content: space-between;
     letter-spacing: 0;
+    max-width: 350px;
+    min-width: 285px;
+    margin: 0 auto;
 }
 
 button {
     padding: 12px 40px;
     background-color: var(--dark-des-blue);
     color: var(--light-grayish-blue);
+    font-family: var(--primary);
     border-radius: 20px;
     border: none;
     font-size: 14px;
-    margin-top: 20px;
+    margin: 20px 0;
+    width: 167px;
 }
 
 li > image,
@@ -268,7 +271,7 @@ li > p {
 }
 
 li > p {
-    margin-left: 10px;
+    margin: 4px 0 10px 10px;
     letter-spacing: 0px;
     font-size: 12px;
 }
