@@ -219,6 +219,10 @@ input:focus + .toggle {
     box-shadow: 0 0 1px #2196F3;
 }
 
+input:focus {
+    outline: none;
+}
+
 input:checked + .toggle:before {
     transform: translateX(26px);
 }
