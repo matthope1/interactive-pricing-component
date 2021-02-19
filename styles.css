@@ -153,20 +153,16 @@ body {
     letter-spacing: 1px;
 }
 
-
-.card > p {
-    letter-spacing: 0;
-}
-
-.card > h3 {
+.card__price {
     margin-top: 21px;
     color: var(--dark-des-blue);
     font-size: 35px;
     font-weight: 800;
     letter-spacing: 0px;
+
 }
 
-.card > h3 > span {
+.card__price > span  {
     color: var(--grayish-blue);
     font-size: 16px;
     position: relative;
@@ -275,6 +271,7 @@ button {
     font-size: 14px;
     margin: 20px 0;
     width: 167px;
+    cursor: pointer;
 }
 
 li > image,
