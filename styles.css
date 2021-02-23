@@ -252,6 +252,10 @@ input:checked + .toggle:before {
     font-weight: 800;
 }
 
+.discount-desktop {
+    display: none;
+}
+
 .billing {
     display: flex;
     align-items: center;
@@ -338,6 +342,14 @@ ul {
 
     .card {
         height: 380px;
+    }
+
+    .discount {
+        width: 83px;
+    }
+
+    .discount-desktop {
+        display: inline-block;
     }
 
 }
