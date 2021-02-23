@@ -325,6 +325,21 @@ ul {
         margin: 25px -35px;
     }
 
+    .card__footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .card__footer {
+        text-align: left;
+    }
+
+    .card {
+        height: 380px;
+    }
+
 }
 
 @media (min-width: 480px) {
